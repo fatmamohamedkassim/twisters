@@ -1,0 +1,42 @@
+.home{
+    background-image: url(../img/bbb.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.home1{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.home2 h1::before{
+    content: "";
+    animation-name: fatma;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fatma {
+    0%{content: "| ";}
+    6.25%{content: "T| ";}
+    12.5%{content: "Tw| ";}
+    18.75%{content: "Twi| ";}
+    25%{content: "Twis| ";}
+    31.25%{content: "Twist| ";}
+    37.5%{content: "Twiste| ";}
+    43.75%{content: "Twister| ";}
+    50%{content: "Twisters| ";}
+    56.25%{content: "Twister| ";}
+    62.5%{content: "Twiste| ";}
+    68.75%{content: "Twist| ";}
+    75%{content: "Twis| ";}
+    81.25%{content: "Twi| ";}
+    87.5%{content: "Tw| ";}
+    93.75%{content: "T| ";}
+    100%{content: "| ";}
+
+}
+#carouselExampleIndicators i{
+font-size: 70px;}
